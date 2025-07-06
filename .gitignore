@@ -1,0 +1,59 @@
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# App bundle build
+build/
+dmg_temp/
+*.dmg
+
+# Icon generation
+icon_temp/
+AppIcon.iconset/
+AppIcon.icns
+
+# Xcode
+*.xcodeproj
+*.xcworkspace
+*.xcuserdata
+*.xcuserdatad
+DerivedData/
+*.hmap
+*.ipa
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Secrets and config files
+.env
+config.json
+secrets.json
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log 
